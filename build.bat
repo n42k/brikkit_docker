@@ -4,3 +4,4 @@ mkdir conf
 mkdir saved
 
 docker build --tag=brikkit .
+pause
