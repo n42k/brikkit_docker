@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker run --net=host \
+docker run -i --net=host \
 	-v $PWD/brikkit.conf:/app/brikkit.conf \
 	-v $PWD/plugins:/app/plugins \
 	-v $PWD/conf:/app/conf \
