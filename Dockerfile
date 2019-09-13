@@ -17,6 +17,4 @@ RUN wget https://github.com/n42k/brikkit/releases/download/v0.1.1/Brikkit_v0.1.1
 RUN unzip Brikkit_v0.1.1.zip
 RUN rm Brikkit_v0.1.1.zip
 
-EXPOSE 7777
-
 CMD ["/app/brikkit"]
