@@ -12,9 +12,9 @@ RUN chown -R appuser /app
 
 USER appuser
 
-RUN wget https://github.com/n42k/brikkit/releases/download/v0.1.6/Brikkit_v0.1.6.zip
+RUN wget https://github.com/n42k/brikkit/releases/download/v1.0.0/Brikkit_v1.0.0.zip
 
-RUN unzip Brikkit_v0.1.6.zip
-RUN rm Brikkit_v0.1.6.zip
+RUN unzip Brikkit_v1.0.0.zip
+RUN rm Brikkit_v1.0.0.zip
 
 CMD ["/app/brikkit"]
