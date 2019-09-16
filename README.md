@@ -60,7 +60,16 @@ Server:
  Product License: Community Engine
 ```
 
-After this, download this repository and extract it somewhere. Edit brikkit.conf with your username and password, then double-click build.bat and run.bat. Your server should now be up and running and showing in the server list. Assuming you forwarded your ports, you should be able to connect.
+If you are running Docker Toolbox, open VirtualBox, open the Settings of the default VM, go to Networking, then Advanced, then Port Forward, add the entry below, reboot your computer and make sure Docker is running as explained above.
+
+* Name: brickadia
+* Protocol: UDP
+* Host IP: 0.0.0.0
+* Host Port: 7777
+* Guest IP:
+* Guest Port: 7777
+
+After this, download this repository and extract it somewhere. Edit brikkit.conf with your username and password. Finally, double-click build.bat and run.bat if you are using Docker Desktop, or the _toolbox versions if you are running Docker Toolbox. Your server should now be up and running and showing in the server list. Assuming you forwarded your ports, you should be able to connect (if you are on Docker Toolbox you will need to forward your ports both in VirtualBox, as explained above, and your router).
 
 ## Linux Instructions
 
