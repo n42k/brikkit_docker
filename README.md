@@ -69,7 +69,7 @@ If you are running Docker Toolbox, open VirtualBox, open the Settings of the def
 * Guest IP:
 * Guest Port: 7777
 
-After this, download this repository and extract it somewhere. Edit brikkit.conf with your username and password. Finally, double-click build.bat and run.bat if you are using Docker Desktop, or the _toolbox versions if you are running Docker Toolbox. Your server should now be up and running and showing in the server list. Assuming you forwarded your ports, you should be able to connect (if you are on Docker Toolbox you will need to forward your ports both in VirtualBox, as explained above, and your router).
+After this, download this repository and extract it somewhere (it must be inside C:\Users\<yourusername> if you use Docker Toolbox). Edit brikkit.conf with your username and password. Finally, double-click build.bat and run.bat if you are using Docker Desktop, or the _toolbox versions if you are running Docker Toolbox. Your server should now be up and running and showing in the server list. Assuming you forwarded your ports, you should be able to connect (if you are on Docker Toolbox you will need to forward your ports both in VirtualBox, as explained above, and your router).
 
 ## Linux Instructions
 
